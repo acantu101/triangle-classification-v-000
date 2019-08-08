@@ -12,3 +12,4 @@ def initialize(a, b, c)
     return @kind
 end
 end
+end
