@@ -2,11 +2,12 @@ class Triangle
   # write code here
 
 
-  def initialize(side_1, side_2, side_3)
+
+  def initialize(side_a, side_b, side_c)
     @triangle_sides = []
-    @triangle_sides << side_1
-    @triangle_sides << side_2
-    @triangle_sides << side_3
+    @triangle_sides << side_a
+    @triangle_sides << side_b
+    @triangle_sides << side_c
   end
 
   def valid?
@@ -23,12 +24,13 @@ class Triangle
   end
   def kind
   if valid?
-    if @triangle_sides.uniq.length == 1
-      return :equilateral
-    elsif @triangle_sides.uniq.length == 2
-      return :isosceles
-    else
-      return :scalene
+    def kind
+      if @a == @b && @b == @c
+        return :equilateral
+      elsif @a == @b || @b == @c || @a == @c
+     return :isosceles
+   else return :scalene
+      end
     end
   else
     raise TriangleError
