@@ -20,7 +20,7 @@ def kind
 return @kind
     end
   end
-end
+
 
 
 end
