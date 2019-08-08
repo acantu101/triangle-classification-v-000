@@ -36,7 +36,7 @@ class Triangle
      return :isosceles
    else
       return :scalene
-  
+
     end
   else
     raise TriangleError
