@@ -29,7 +29,7 @@ class Triangle
       elsif @a == @b || @b == @c || @a == @c
      return :isosceles
    else
-     return :scalene
+      :scalene
       end
     end
   else
