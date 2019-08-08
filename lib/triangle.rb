@@ -3,11 +3,17 @@ class Triangle
 
 
 
-  def initialize(side_a, side_b, side_c)
+  def initialize(a, b, c)
     @triangle_sides = []
-    @triangle_sides << side_a
-    @triangle_sides << side_b
-    @triangle_sides << side_c
+    @triangle_sides << a
+    @triangle_sides << b
+    @triangle_sides << c
+
+    @a = a
+    @b = b
+    @c = c
+    
+    
   end
 
   def valid?
