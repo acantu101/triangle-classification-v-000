@@ -15,7 +15,7 @@ def kind
   elsif @a != @b && @b == @C || @a == @b && @b != @c || @a == @c && @b != @case || @a == @b && @b != @c || @a != @b && @b = @c
  @kind = :isosceles
  return @kind
- elsif @a != @b && @b != @c
+ elsif @a != @b != @c
 @kind = :scalene
 return @kind
     end
