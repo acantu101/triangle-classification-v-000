@@ -1,10 +1,15 @@
 class Triangle
   # write code here
 
-  attr_accessor :name
+  attr_accessor :name, :kind
 
-def initialize(name)
-  @name = name
+def initialize(1, 2, 3)
+  @1 = 1
+  @2 = 2
+  @3 = 3
+  if 1 == 2 && 2 == 3
+    @kind = "equilateral"
+    return @kind
 end
 
   def kind(type)
