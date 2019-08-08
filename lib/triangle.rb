@@ -24,7 +24,6 @@ class Triangle
   end
   def kind
   if valid?
-    def kind
       if @a == @b && @b == @c
         return :equilateral
       elsif @a == @b || @b == @c || @a == @c
