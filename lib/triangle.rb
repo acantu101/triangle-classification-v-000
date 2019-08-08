@@ -17,7 +17,7 @@ end
   else
     return type
   end
-
+end
 
 class TriangleError < StandardError
     def message
