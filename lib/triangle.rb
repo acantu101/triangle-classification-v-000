@@ -11,6 +11,7 @@ def initialize(1, 2, 3)
     @kind = "equilateral"
     return @kind
 end
+end
 
   def kind(type)
   if type != :equilateral || type != :isosceles || type != :scalene
