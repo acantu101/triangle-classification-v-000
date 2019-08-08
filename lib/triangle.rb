@@ -14,7 +14,7 @@ end
     rescue TriangleError => error
       puts error.message
     end
-  else 
+  else
     return type
   end
 
