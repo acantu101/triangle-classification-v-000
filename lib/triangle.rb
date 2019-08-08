@@ -13,7 +13,7 @@ def initialize(a, b, c)
   elsif @a != @b && @b = @C || @a = @b && @b != @c || @a = @c && @b != @case
  @kind = :isosceles
  return @kind
- end
+
   end
 
     end
