@@ -18,4 +18,4 @@ def initialize(a, b, c)
 
     end
   end
-end
+
