@@ -34,8 +34,8 @@ class Triangle
         return :equilateral
       elsif @a == @b || @b == @c || @a == @c
      return :isosceles
-   else kind = :scalene
-     return kind
+   else
+      return :scalene
       end
     end
   else
