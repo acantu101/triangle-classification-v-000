@@ -9,7 +9,7 @@ def initialize(a, b, c)
   @c = c
 end
 
-def kind(attr)
+def kind
   if @a == @b && @b == @c
     @kind = :equilateral
     return @kind
